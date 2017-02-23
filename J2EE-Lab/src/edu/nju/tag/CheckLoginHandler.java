@@ -23,10 +23,10 @@ public class CheckLoginHandler extends TagSupport {
 
 	            }
 	          //EVAL_BODY_TAG，表示继续计算一次Body
-	            return EVAL_PAGE;
+	            return EVAL_BODY_AGAIN;
 	        }else{
 	        	 //直到返回SKIP_BODY才继续往下执行 要求JSP容器忽略主体，进入下一步的处理工作
-	            return SKIP_PAGE;
+	            return SKIP_BODY;
 	        }
 
 	    }

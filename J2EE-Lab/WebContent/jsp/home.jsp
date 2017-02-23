@@ -12,6 +12,8 @@
 <title>home</title>
 </head>
 
+<MyTag:checkLogin/>
+
 <body>
 	<h3>
 		你好，<%
